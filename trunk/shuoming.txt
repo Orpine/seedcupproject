@@ -1,1 +1,0 @@
-版本1.0，实现drop table_name功能，将char[n]型，改成了text型；
