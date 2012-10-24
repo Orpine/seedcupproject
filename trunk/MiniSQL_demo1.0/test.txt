@@ -1,0 +1,8 @@
+create table zpf(
+name text,
+id int
+);
+insert into zpf values('aaa',11);
+
+select * from zpf;
+drop zpf;
