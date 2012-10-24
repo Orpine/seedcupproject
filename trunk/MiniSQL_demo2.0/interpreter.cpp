@@ -543,11 +543,81 @@ bool interpreter::ExecuteCommand(CString cmd)      //执行sql命令
 			else
 				return false;
 		}
+
+
+       
+         else if(temp.Find("alter table") == 0)  //alter table wxy add adress
+		{
+			CString Add,TableName,AddressName,Condition;
+			for(i=0,j=0;i<cmd.GetLength();i++)
+				if(cmd[i] == ' ')
+					j++;
+			if(j == 4)
+			{
+				for(i=12;cmd[i]!=' ';i++)
+					TableName += cmd[i];
+				TableName += ";";              //记录table名字 
+				for(i+=1;temp[i]!=' ';i++)    
+					Add += temp[i];         //记录识别符号add
+				if(Add == "add")
+					for(i+=1;cmd[i]!=';';i++)
+						AddressName += cmd[i];//记录添加项的名字
+				else
+				{
+					cout << "在alter附近有语法错误!" << endl;
+					return false;
+				}
+			}
+		
+			else if(j >= 5)
+			{
+				for(i=12;cmd[i]!=' ';i++)
+					TableName += cmd[i];
+				TableName += ";";
+				for(i+=1;temp[i]!=' ';i++)
+					Add += temp[i];
+				if(Add == "add")
+				{
+					for(i+=1;cmd[i]!=';';i++)
+						AddressName += cmd[i];
+				}
+				
+			
+				else
+				{
+					cout << "在alter附近有语法错误!" << endl;
+						printf("%s\n",TableName);
+							printf("%s\n",AddressName);
+							printf("%s\n",Add);
+					
+					return false;
+				}
+			}
+		
+			else
+			{
+				cout << "在alter附近有语法错误11111111111!" << endl;
+				return false;
+			}
+
+			
+		//	AfxMessageBox(Alteration);
+		//	AfxMessageBox(TableName);
+		//	AfxMessageBox(Condition);
+			if(Alter(TableName,AddressName,Condition) == 0)
+				return false;
+		}
+
+
+
+
+
+
 		if(temp.Find("create table") == 0 || temp.Find("drop") == 0 ||
 			temp.Find("create index") == 0 || temp.Find("create unique index") == 0 ||
 			 temp.Find("drop index") == 0 || temp.Find("select") == 0 ||
 			 temp.Find("insert into") == 0 || temp.Find("delete from") == 0||temp.Find("create database") == 0 ||
-			 temp.Find("show tables") == 0 || (temp.Find("show") == 0) || (temp.Find("use") == 0))
+			 temp.Find("show tables") == 0 || (temp.Find("show") == 0) || (temp.Find("use") == 0)||(temp.Find("alter table") == 0))
 		{
 			return true;
 		}
@@ -1457,6 +1527,15 @@ bool interpreter::CreateIndex(CString IndexName, CString TableName, CString AttN
 	}
 	return 1;
 }
+
+
+bool interpreter::Alter(CString TableName,CString AddressName,CString Condition) 
+{
+	cout << "没有找到记录!" << endl;
+  return 1; 
+}
+
+
 
 bool interpreter::DropTable(CString tableName)
 {

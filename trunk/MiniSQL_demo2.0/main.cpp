@@ -51,7 +51,7 @@ int main()
 		CString temp = a;
 		temp.MakeLower();
 		if(temp.Find("create") != -1 || temp.Find("drop") != -1
-			|| temp.Find("select") != -1 || temp.Find("insert") != -1
+			|| temp.Find("select") != -1 || temp.Find("insert") != -1||temp.Find("alter table") != -1
 			|| temp.Find("delete") != -1 || temp.Find("show") != -1|| temp.Find("use") != -1)
 		{	
 			if(b.ExecuteCommand(a))
