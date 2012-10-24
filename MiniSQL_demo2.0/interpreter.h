@@ -42,6 +42,7 @@ public:
 	bool ShowColumn(CString TableName);
 	bool ShowDatabase();
 	bool CreateDatabase(CString DbName);
+	bool Alter(CString TableName,CString AddressName,CString Condition);
 };
 
 
