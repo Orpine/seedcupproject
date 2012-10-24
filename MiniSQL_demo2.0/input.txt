@@ -1,0 +1,14 @@
+create database zzz;
+use zzz;
+show databases;
+create table zpf1(
+name text,
+id int
+);
+insert into zpf1 values('aaa',11);
+show tables;
+show zpf1 column;
+
+select name from zpf1 where id > 10;
+select * from zpf1;
+drop zpf1;

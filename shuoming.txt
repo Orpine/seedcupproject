@@ -1,0 +1,3 @@
+版本1.0 添加drop table功能，char 类改为text；
+版本2.0 添加create database ，use，show databases，show tables, show table column等功能；select输出规范化；
+	文件读、写功能，从input.txt读，写到output.txt中；
