@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1351139021 source:c:\users\administrator\desktop\sql\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
