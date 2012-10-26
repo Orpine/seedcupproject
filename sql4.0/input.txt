@@ -1,0 +1,31 @@
+create database seedCup;
+use seedCup;
+show databases;
+create table zz (
+name text,
+id int,
+age  int
+);
+show tables;
+show zz column;
+
+
+insert into zz values ('qwe',12,2);
+insert into zz (name,id) values ('qas',16);
+insert into zz (id) values (18);
+select * from zz;
+
+alter table zz add address;
+show zz column;
+
+alter table zz dropcolumn id;
+show zz column;
+
+alter table zz add wxy char;
+show zz column;
+
+alter table zz altercolumn address int;
+show zz column;
+
+drop zz;
+drop zpf;
