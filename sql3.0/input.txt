@@ -1,0 +1,18 @@
+create database zpf   34543;
+use zpf;
+show databases;
+create table zz (
+name text,
+id int
+);
+show tables;
+show zz column;
+insert into zz values ('qwe',12);
+insert into zz (name,id) values ('qas',16);
+insert into zz (id) values (18);
+select * from zz;
+
+
+
+drop zz;
+drop zpf;
