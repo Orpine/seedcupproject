@@ -1,0 +1,68 @@
+create database seedCup;
+use seedCup;
+show databases;
+
+show tables;
+create table wxt (
+name text,
+id int,
+age  int
+);
+create table zz (
+name text,
+id int,
+mm text,
+age  int
+);
+show tables;
+show zz column;
+show gg column;
+
+show tables;
+
+
+insert into zz values ('qwe',12,'gg',11);
+insert into zz (name,id) values ('qas',16);
+insert into zz (id) values (18);
+select * from zz;
+
+
+
+show databases;
+update zz set (id,mm) = (13,'uu') where name == 'qwe';
+show tables;
+select * from zz;
+update zz set (id,mm) = (13,'uu') where name == 'qwe';
+select * from zz;
+show tables;
+
+alter table zz add address;
+show zz column;
+
+alter table zz drop column id;
+show zz column;
+
+alter table zz add wxy char;
+show zz column;
+
+alter table zz alter column address int;
+alter table zz alter column address wxx;
+show zz column;
+
+rename table zz referee;
+show tables;
+
+rename database seedCup king;
+
+drop referee;
+create table wxy (
+name1 text,
+id int
+);
+show tables;
+
+drop king;
+
+
+
+
