@@ -1,0 +1,23 @@
+create database seedCup;
+use seedCup;
+show databases;
+
+create table zz (
+name text,
+id int,
+mm text,
+age  int
+);
+show tables;
+show zz column;
+
+insert into zz values ('qwe',12,'gg',11);
+insert into zz (name,id) values ('qas',16);
+insert into zz (id) values (18);
+select * from zz;
+delete from zz where id == 12;
+select * from zz;
+
+
+drop zz;
+drop seedCup;

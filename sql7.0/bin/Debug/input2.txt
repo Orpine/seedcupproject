@@ -1,0 +1,20 @@
+create database seedCup;
+use seedCup;
+show databases;
+create table zz (
+name text,
+id int,
+mm text,
+age  int
+);
+insert into zz values ('qwe',12,'ga',11);
+insert into zz values ('qwe',20,'gb',11);
+insert into zz values ('qwe',120,'gc',11);
+insert into zz values ('qwe',2,'gd',11);
+insert into zz (name,id) values ('qq',16);
+insert into zz (id) values (18);
+select * from zz where name == 'qwe';
+select * from zz where name == 'qwe' ORDER BY mm DESC;
+select id from zz where name == 'qwe' ORDER BY mm INCR;
+drop zz;
+drop seedCup;
