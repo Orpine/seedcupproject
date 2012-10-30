@@ -1,0 +1,93 @@
+create database seedCup;
+use seedCup;
+show databases;
+
+show table;
+create table wxt (
+name text,
+id int,
+age  int
+);
+create table zz (
+name text,
+id int,
+mm text,
+age  int
+);
+create table cc (
+name text,
+id int,
+mm text,
+age  int
+);
+create table yy(
+ name text,
+id int);
+show tables;
+show zz column;
+show gg column;
+show yy column;
+show table;
+
+truncate yy;
+show zz column;
+select * from yy;
+insert into zz values ('qwe',12 , , 11);
+insert into zz values ('zpf',12 ,'gg' , 11);
+insert into zz values ('qw'gh,12,,11);
+insert into zz (name,id) values ('qas',16);
+insert into zz (name,id) values ('gh',18);
+insert into cc (name,id) values ('df',17);
+select * from zz;
+select * from zz where ( (id > 10) and (age < 12) and (mm == 'gg'));
+select * from zz;
+select * from zz where id > 12;
+select * from zz where (id > 12 and id < 17);
+
+
+select name,id from zz;
+select * from zz;
+select * from zz where id between[12, 17];
+select * from zz where name like 'qw?';
+select * from zz where name like 'q*';
+delete from zz where name like 'qw?';
+select * from zz;
+select name from zz where id >(select id from zz where name == 'qas');
+insert into zz(name) values (select name from cc where id == 17);
+select * from zz where id > 15;
+show databases;
+update zz set (id,mm) = (13,'uu') where name == 'qwe';
+show table;
+select * from zz;
+update zz set (name) = ('qrt') where id == 16;
+select * from zz;
+show table;
+delete from zz where id == 18;
+select * from zz;
+
+alter table zz add address;
+show zz column;
+
+alter table zz drop column id;
+show zz column;
+
+alter table zz add wxy char;
+show zz column;
+
+alter table zz alter column address int;
+alter table zz alter column address wxx;
+show zz column;
+
+rename table zz referee;
+show table;
+
+rename database seedCup king;
+
+drop referee;
+create table wxy (
+name1 text,
+id int
+);
+show table;
+
+drop king;

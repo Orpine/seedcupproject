@@ -1,0 +1,230 @@
+# depslib dependency file v1.0
+1351146432 source:c:\users\administrator\desktop\sql\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	<fstream>
+
+1351145499 c:\users\administrator\desktop\sql\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
+1351168470 source:c:\users\administrator\desktop\sql1.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	<fstream>
+
+1351167237 c:\users\administrator\desktop\sql1.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
+1351225128 source:c:\users\administrator\desktop\sql2.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	<fstream>
+
+1351217501 c:\users\administrator\desktop\sql2.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
+1351259402 source:c:\users\administrator\desktop\sql3.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	<fstream>
+
+1351256397 c:\users\administrator\desktop\sql3.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
+1351306901 source:c:\users\administrator\desktop\sql4.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	<fstream>
+
+1351260106 c:\users\administrator\desktop\sql4.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
+1351409244 source:c:\users\administrator\desktop\sql5.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	"main.h"
+	"main_data_handle.h"
+	<limits.h>
+	<fstream>
+	<sstream>
+
+1351407862 c:\users\administrator\desktop\sql5.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
+1351317341 source:d:\sql5.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	<fstream>
+
+1351315886 d:\sql5.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+
+1351407438 c:\users\administrator\desktop\sql5.0\main_data_handle.h
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+
+1351412908 source:d:\扣扣文件\1192962814\filerecv\sql5.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	"main.h"
+	"main_data_handle.h"
+	<limits.h>
+	<fstream>
+	<sstream>
+
+1351412274 d:\扣扣文件\1192962814\filerecv\sql5.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<algorithm>
+	<stdio.h>
+
+1351411518 d:\扣扣文件\1192962814\filerecv\sql5.0\main_data_handle.h
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+
+1351504229 source:c:\users\administrator\desktop\sql6.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	"main.h"
+	"main_data_handle.h"
+	<limits.h>
+	<fstream>
+	<sstream>
+
+1351505473 c:\users\administrator\desktop\sql6.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<algorithm>
+	<stdio.h>
+
+1351433486 c:\users\administrator\desktop\sql6.0\main_data_handle.h
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+
+1351514067 source:c:\users\administrator\desktop\sql7.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	"main.h"
+	"main_data_handle.h"
+	<limits.h>
+	<fstream>
+	<sstream>
+
+1351514119 c:\users\administrator\desktop\sql7.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<algorithm>
+	<stdio.h>
+
+1351433486 c:\users\administrator\desktop\sql7.0\main_data_handle.h
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+
+1351514067 source:c:\users\administrator\desktop\初赛提交-mountaintop\src\sql7.0\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	"main.h"
+	"main_data_handle.h"
+	<limits.h>
+	<fstream>
+	<sstream>
+
+1351515234 c:\users\administrator\desktop\初赛提交-mountaintop\src\sql7.0\main.h
+	<iostream>
+	<string>
+	<string.h>
+	<vector>
+	<algorithm>
+	<stdio.h>
+
+1351433486 c:\users\administrator\desktop\初赛提交-mountaintop\src\sql7.0\main_data_handle.h
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+
